@@ -2,6 +2,7 @@ import requests
 import json
 from datetime import datetime 
 import pandas as pd
+import os
 
 BETTING_PROS_API = "https://api.bettingpros.com/v3/props?limit=25&sport=NBA&market_id=&event_id=&location=ALL&sort=bet_rating&include_events=true&include_selections=false&include_markets=true&include_books=true"
 
@@ -72,10 +73,11 @@ def save_to_csv(data, outdir="data"):
 
 def main():
     #simple workflow/pipeline
-    json_data = fetch_bettingpros_data()
+    json_data = get_bettingpros_data()
     filtered_data = filter_line_scores(json_data)
     filepath = save_to_csv(filtered_data)
     
+    return filepath
 
 if __name__ == "__main__":
     main()
