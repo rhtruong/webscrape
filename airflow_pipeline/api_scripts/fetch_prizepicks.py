@@ -51,12 +51,11 @@ def filter_line_scores(data):
             filtered_projections.append(proj_data)
         
         except Exception as e:
-            logger.warning(f"Error processing projection: {e}")
             continue
     
     return filtered_projections
 
-def save_to_csv(data, outdir="data"):
+def save_to_csv(data, output_dir="data"):
     if not data:
         print("No data to save")
         return None
@@ -66,7 +65,7 @@ def save_to_csv(data, outdir="data"):
     
     # Create filename with today's date
     today = datetime.now().strftime('%Y_%m_%d')
-    filename = f"nba_bettingpros_{today}.csv"
+    filename = f"nba_prizepicks_{today}.csv"
     filepath = os.path.join(output_dir, filename)
     
     # Convert to DataFrame and save
@@ -78,7 +77,7 @@ def save_to_csv(data, outdir="data"):
 
 def main():
     #simple workflow/pipeline
-    json_data = fetch_bettingpros_data()
+    json_data = get_prizepicks_data()
     filtered_data = filter_line_scores(json_data)
     filepath = save_to_csv(filtered_data)
     

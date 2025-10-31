@@ -8,8 +8,6 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../a
 
 from fetch_bettingpros import main as fetch_bettingpros
 from fetch_prizepicks import main as fetch_prizepicks
-from google_drive_upload import upload_csv_to_drive
-
 
 # Default arguments for the DAG
 default_args = {
@@ -45,35 +43,12 @@ def fetch_prizepicks_task():
         raise Exception("Failed to fetch PrizePicks data")
     return filepath
 
-def upload_bettingpros_task(**context):
-    ti = context['ti']
-    filepath = ti.xcom_pull(task_ids='fetch_bettingpros')
-    
-    if not filepath or not os.path.exists(filepath):
-        raise Exception(f"BettingPros file not found: {filepath}")
-    
-    success = upload_csv_to_drive(filepath)
-    if not success:
-        raise Exception("Failed to upload BettingPros data to Google Drive")
-    
-    return f"Successfully uploaded {filepath}"
-
-def upload_prizepicks_task(**context):
-    ti = context['ti']
-    filepath = ti.xcom_pull(task_ids='fetch_prizepicks')
-    
-    if not filepath or not os.path.exists(filepath):
-        raise Exception(f"PrizePicks file not found: {filepath}")
-    
-    success = upload_csv_to_drive(filepath)
-    if not success:
-        raise Exception("Failed to upload PrizePicks data to Google Drive")
-    
-    return f"Successfully uploaded {filepath}"
+def migrate_to_postgres_task(**context):
+    pass
 
 task_fetch_bettingpros = PythonOperator(
     task_id='fetch_bettingpros',
-    python_callable=fetch_bettingpros_task,
+    python_callable=fetch_bettingpros_task,  # Fixed
     dag=dag,
 )
 
@@ -83,22 +58,13 @@ task_fetch_prizepicks = PythonOperator(
     dag=dag,
 )
 
-task_upload_bettingpros = PythonOperator(
-    task_id='upload_bettingpros',
-    python_callable=upload_bettingpros_task,
-    provide_context=True,
-    dag=dag,
-)
-
-task_upload_prizepicks = PythonOperator(
-    task_id='upload_prizepicks',
-    python_callable=upload_prizepicks_task,
+task_migrate_to_postgres = PythonOperator(
+    task_id='migrate_to_postgres',
+    python_callable=migrate_to_postgres_task,  # Fixed
     provide_context=True,
     dag=dag,
 )
 
 # Set task dependencies
-# Both fetches can run in parallel
-# Uploads depend on their respective fetches
-task_fetch_bettingpros >> task_upload_bettingpros
-task_fetch_prizepicks >> task_upload_prizepicks
+task_fetch_bettingpros >>  task_migrate_to_postgres
+task_fetch_prizepicks  >>  task_migrate_to_postgres

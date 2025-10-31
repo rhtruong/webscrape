@@ -7,7 +7,7 @@ import os
 BETTING_PROS_API = "https://api.bettingpros.com/v3/props?limit=25&sport=NBA&market_id=&event_id=&location=ALL&sort=bet_rating&include_events=true&include_selections=false&include_markets=true&include_books=true"
 
 def get_bettingpros_data():
-    data_json = requests.get(BETTINGPROS_API)
+    data_json = requests.get(BETTING_PROS_API)
     data = data_json.json()
 
     return data
@@ -51,7 +51,7 @@ def filter_line_scores(data):
     
     return filtered_props
 
-def save_to_csv(data, outdir="data"):
+def save_to_csv(data, output_dir="data"):
     if not data:
         print("No data to save")
         return None
