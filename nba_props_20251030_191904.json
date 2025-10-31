@@ -1,0 +1,2502 @@
+[
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Kyle Kuzma",
+    "player_team": "MIL",
+    "player_position": "F",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 20.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "LaMelo Ball",
+    "player_team": "CHA",
+    "player_position": "G",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 41.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Brandin Podziemski",
+    "player_team": "GSW",
+    "player_position": "G",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 17.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Kyle Kuzma",
+    "player_team": "MIL",
+    "player_position": "F",
+    "market_name": "Pts + Ast",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 15.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Myles Turner",
+    "player_team": "MIL",
+    "player_position": "C",
+    "market_name": "Pts + Reb",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 18.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "AJ Green",
+    "player_team": "MIL",
+    "player_position": "G",
+    "market_name": "Pts + Reb",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 10.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "LaMelo Ball",
+    "player_team": "CHA",
+    "player_position": "G",
+    "market_name": "Pts + Ast",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 34.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Isaiah Hartenstein",
+    "player_team": "OKC",
+    "player_position": "C",
+    "market_name": "Pts + Reb",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 23.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Gary Trent Jr.",
+    "player_team": "MIL",
+    "player_position": "G",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 16.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Anthony Black",
+    "player_team": "ORL",
+    "player_position": "G",
+    "market_name": "Pts + Reb",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 15.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Anthony Black",
+    "player_team": "ORL",
+    "player_position": "G",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 18.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Myles Turner",
+    "player_team": "MIL",
+    "player_position": "C",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 20.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "AJ Green",
+    "player_team": "MIL",
+    "player_position": "G",
+    "market_name": "Points",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 8.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Kyshawn George",
+    "player_team": "WAS",
+    "player_position": "F",
+    "market_name": "Pts + Reb",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 22.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Miles Bridges",
+    "player_team": "CHA",
+    "player_position": "F",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 30.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Myles Turner",
+    "player_team": "MIL",
+    "player_position": "C",
+    "market_name": "Points",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 12.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Simone Fontecchio",
+    "player_team": "MIA",
+    "player_position": "F",
+    "market_name": "Pts + Reb",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 12.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Cole Anthony",
+    "player_team": "MIL",
+    "player_position": "G",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 18.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Ajay Mitchell",
+    "player_team": "OKC",
+    "player_position": "G",
+    "market_name": "Points",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 14.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "AJ Green",
+    "player_team": "MIL",
+    "player_position": "G",
+    "market_name": "Pts + Ast",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 12.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Kyshawn George",
+    "player_team": "WAS",
+    "player_position": "F",
+    "market_name": "Pts + Ast",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 18.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Ajay Mitchell",
+    "player_team": "OKC",
+    "player_position": "G",
+    "market_name": "Pts + Ast",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 17.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Isaiah Hartenstein",
+    "player_team": "OKC",
+    "player_position": "C",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 27.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Paolo Banchero",
+    "player_team": "ORL",
+    "player_position": "F",
+    "market_name": "Points",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 26.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Kyle Kuzma",
+    "player_team": "MIL",
+    "player_position": "F",
+    "market_name": "Points",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 8.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Gary Trent Jr.",
+    "player_team": "MIL",
+    "player_position": "G",
+    "market_name": "Pts + Ast",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 14.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Davion Mitchell",
+    "player_team": "MIA",
+    "player_position": "G",
+    "market_name": "Pts + Ast",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 17.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Ryan Rollins",
+    "player_team": "MIL",
+    "player_position": "G",
+    "market_name": "Points",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 11.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Kyle Kuzma",
+    "player_team": "MIL",
+    "player_position": "F",
+    "market_name": "Pts + Reb",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 12.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Ajay Mitchell",
+    "player_team": "OKC",
+    "player_position": "G",
+    "market_name": "Pts + Reb",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 19.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Kyshawn George",
+    "player_team": "WAS",
+    "player_position": "F",
+    "market_name": "Reb + Ast ",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 10.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Paolo Banchero",
+    "player_team": "ORL",
+    "player_position": "F",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 38.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Tristan da Silva",
+    "player_team": "ORL",
+    "player_position": "F",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 14.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Alex Sarr",
+    "player_team": "WAS",
+    "player_position": "C",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 24.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Ajay Mitchell",
+    "player_team": "OKC",
+    "player_position": "G",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 21.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Miles Bridges",
+    "player_team": "CHA",
+    "player_position": "F",
+    "market_name": "Points",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 19.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Anthony Black",
+    "player_team": "ORL",
+    "player_position": "G",
+    "market_name": "Points",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 12.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Miles Bridges",
+    "player_team": "CHA",
+    "player_position": "F",
+    "market_name": "Pts + Ast",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 23.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Taurean Prince",
+    "player_team": "MIL",
+    "player_position": "F",
+    "market_name": "Pts + Reb",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 6.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "LaMelo Ball",
+    "player_team": "CHA",
+    "player_position": "G",
+    "market_name": "Points",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 26.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Kon Knueppel",
+    "player_team": "CHA",
+    "player_position": "F",
+    "market_name": "Points",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 12.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Paolo Banchero",
+    "player_team": "ORL",
+    "player_position": "F",
+    "market_name": "Pts + Ast",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 30.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Nikola Jovic",
+    "player_team": "MIA",
+    "player_position": "F",
+    "market_name": "Pts + Ast",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 13.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Paolo Banchero",
+    "player_team": "ORL",
+    "player_position": "F",
+    "market_name": "Pts + Reb",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 33.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Cam Whitmore",
+    "player_team": "WAS",
+    "player_position": "F",
+    "market_name": "Pts + Reb",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 10.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Nikola Jovic",
+    "player_team": "MIA",
+    "player_position": "F",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 17.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Tre Johnson",
+    "player_team": "WAS",
+    "player_position": "G",
+    "market_name": "Points",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 12.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Tre Mann",
+    "player_team": "CHA",
+    "player_position": "G",
+    "market_name": "Pts + Ast",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 12.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "LaMelo Ball",
+    "player_team": "CHA",
+    "player_position": "G",
+    "market_name": "Pts + Reb",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 32.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Ryan Rollins",
+    "player_team": "MIL",
+    "player_position": "G",
+    "market_name": "Pts + Reb",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 15.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Ryan Rollins",
+    "player_team": "MIL",
+    "player_position": "G",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 20.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Cole Anthony",
+    "player_team": "MIL",
+    "player_position": "G",
+    "market_name": "Pts + Ast",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 15.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Alex Sarr",
+    "player_team": "WAS",
+    "player_position": "C",
+    "market_name": "Pts + Reb",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 21.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Nikola Jovic",
+    "player_team": "MIA",
+    "player_position": "F",
+    "market_name": "Pts + Reb",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 14.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Quinten Post",
+    "player_team": "GSW",
+    "player_position": "C",
+    "market_name": "Points",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 6.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Cason Wallace",
+    "player_team": "OKC",
+    "player_position": "G",
+    "market_name": "Pts + Ast",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 12.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Keldon Johnson",
+    "player_team": "SAS",
+    "player_position": "F",
+    "market_name": "Pts + Reb",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 17.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Alex Caruso",
+    "player_team": "OKC",
+    "player_position": "G",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 14.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Kyshawn George",
+    "player_team": "WAS",
+    "player_position": "F",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 23.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Julian Champagnie",
+    "player_team": "SAS",
+    "player_position": "F",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 14.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Stephon Castle",
+    "player_team": "SAS",
+    "player_position": "G",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 28.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Tristan da Silva",
+    "player_team": "ORL",
+    "player_position": "F",
+    "market_name": "Points",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 8.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Will Richard",
+    "player_team": "GSW",
+    "player_position": "G",
+    "market_name": "Points",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 1.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Tyus Jones",
+    "player_team": "ORL",
+    "player_position": "G",
+    "market_name": "Pts + Ast",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 9.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Cam Whitmore",
+    "player_team": "WAS",
+    "player_position": "F",
+    "market_name": "Pts + Ast",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 8.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Bub Carrington",
+    "player_team": "WAS",
+    "player_position": "G",
+    "market_name": "Pts + Ast",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 10.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Miles Bridges",
+    "player_team": "CHA",
+    "player_position": "F",
+    "market_name": "Pts + Reb",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 26.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Tristan da Silva",
+    "player_team": "ORL",
+    "player_position": "F",
+    "market_name": "Pts + Reb",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 11.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Cason Wallace",
+    "player_team": "OKC",
+    "player_position": "G",
+    "market_name": "Pts + Reb",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 12.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Kel'el Ware",
+    "player_team": "MIA",
+    "player_position": "C",
+    "market_name": "Pts + Reb",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 19.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Franz Wagner",
+    "player_team": "ORL",
+    "player_position": "F",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 30.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Davion Mitchell",
+    "player_team": "MIA",
+    "player_position": "G",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 20.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Isaiah Hartenstein",
+    "player_team": "OKC",
+    "player_position": "C",
+    "market_name": "Points",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 12.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Bam Adebayo",
+    "player_team": "MIA",
+    "player_position": "C",
+    "market_name": "Pts + Reb",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 31.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Taurean Prince",
+    "player_team": "MIL",
+    "player_position": "F",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 8.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Taurean Prince",
+    "player_team": "MIL",
+    "player_position": "F",
+    "market_name": "Points",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 5.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Alex Caruso",
+    "player_team": "OKC",
+    "player_position": "G",
+    "market_name": "Points",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 8.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Moussa Diabate",
+    "player_team": "CHA",
+    "player_position": "F",
+    "market_name": "Pts + Reb",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 13.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Tre Johnson",
+    "player_team": "WAS",
+    "player_position": "G",
+    "market_name": "Pts + Reb",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 15.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Cole Anthony",
+    "player_team": "MIL",
+    "player_position": "G",
+    "market_name": "Reb + Ast ",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 7.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Tre Johnson",
+    "player_team": "WAS",
+    "player_position": "G",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 17.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Kyshawn George",
+    "player_team": "WAS",
+    "player_position": "F",
+    "market_name": "Points",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 14.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Kon Knueppel",
+    "player_team": "CHA",
+    "player_position": "F",
+    "market_name": "Pts + Reb",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 16.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Brandin Podziemski",
+    "player_team": "GSW",
+    "player_position": "G",
+    "market_name": "Pts + Reb",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 15.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Alex Caruso",
+    "player_team": "OKC",
+    "player_position": "G",
+    "market_name": "Pts + Reb",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 11.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Marvin Bagley III",
+    "player_team": "WAS",
+    "player_position": "F",
+    "market_name": "Points",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 5.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Tristan da Silva",
+    "player_team": "ORL",
+    "player_position": "F",
+    "market_name": "Pts + Ast",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 10.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Ryan Rollins",
+    "player_team": "MIL",
+    "player_position": "G",
+    "market_name": "Pts + Ast",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 16.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Alex Sarr",
+    "player_team": "WAS",
+    "player_position": "C",
+    "market_name": "Pts + Ast",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 17.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Franz Wagner",
+    "player_team": "ORL",
+    "player_position": "F",
+    "market_name": "Pts + Reb",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 26.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Stephon Castle",
+    "player_team": "SAS",
+    "player_position": "G",
+    "market_name": "Reb + Ast ",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 10.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Kyshawn George",
+    "player_team": "WAS",
+    "player_position": "F",
+    "market_name": "Rebounds",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 7.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Anthony Black",
+    "player_team": "ORL",
+    "player_position": "G",
+    "market_name": "Pts + Ast",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 14.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Kon Knueppel",
+    "player_team": "CHA",
+    "player_position": "F",
+    "market_name": "Pts + Ast",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 15.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "LaMelo Ball",
+    "player_team": "CHA",
+    "player_position": "G",
+    "market_name": "Reb + Ast ",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 13.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Bam Adebayo",
+    "player_team": "MIA",
+    "player_position": "C",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 35.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Keldon Johnson",
+    "player_team": "SAS",
+    "player_position": "F",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 17.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Tidjane Salaun",
+    "player_team": "CHA",
+    "player_position": "F",
+    "market_name": "Rebounds",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 3.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Kel'el Ware",
+    "player_team": "MIA",
+    "player_position": "C",
+    "market_name": "Rebounds",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 7.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Franz Wagner",
+    "player_team": "ORL",
+    "player_position": "F",
+    "market_name": "Pts + Ast",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 25.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Myles Turner",
+    "player_team": "MIL",
+    "player_position": "C",
+    "market_name": "Pts + Ast",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 14.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Isaiah Hartenstein",
+    "player_team": "OKC",
+    "player_position": "C",
+    "market_name": "Pts + Ast",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 15.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Keldon Johnson",
+    "player_team": "SAS",
+    "player_position": "F",
+    "market_name": "Reb + Ast ",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 6.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Sion James",
+    "player_team": "CHA",
+    "player_position": "G",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 11.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Jonathan Kuminga",
+    "player_team": "GSW",
+    "player_position": "F",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 25.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Davion Mitchell",
+    "player_team": "MIA",
+    "player_position": "G",
+    "market_name": "Assists",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 6.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Stephen Curry",
+    "player_team": "GSW",
+    "player_position": "G",
+    "market_name": "Points",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 25.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Sion James",
+    "player_team": "CHA",
+    "player_position": "G",
+    "market_name": "Rebounds",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 2.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Tre Johnson",
+    "player_team": "WAS",
+    "player_position": "G",
+    "market_name": "Pts + Ast",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 14.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Bobby Portis Jr.",
+    "player_team": "MIL",
+    "player_position": "F",
+    "market_name": "Pts + Reb",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 15.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Andrew Wiggins",
+    "player_team": "MIA",
+    "player_position": "F",
+    "market_name": "Pts + Reb",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 22.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Cason Wallace",
+    "player_team": "OKC",
+    "player_position": "G",
+    "market_name": "Reb + Ast ",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 6.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Kon Knueppel",
+    "player_team": "CHA",
+    "player_position": "F",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 19.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Cam Whitmore",
+    "player_team": "WAS",
+    "player_position": "F",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 12.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Bilal Coulibaly",
+    "player_team": "WAS",
+    "player_position": "F",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 15.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Bobby Portis Jr.",
+    "player_team": "MIL",
+    "player_position": "F",
+    "market_name": "Points",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 9.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "CJ McCollum",
+    "player_team": "WAS",
+    "player_position": "G",
+    "market_name": "Points",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 14.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Alex Sarr",
+    "player_team": "WAS",
+    "player_position": "C",
+    "market_name": "Points",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 14.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Andrew Wiggins",
+    "player_team": "MIA",
+    "player_position": "F",
+    "market_name": "Points",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 17.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Nikola Jovic",
+    "player_team": "MIA",
+    "player_position": "F",
+    "market_name": "Points",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 10.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Brandin Podziemski",
+    "player_team": "GSW",
+    "player_position": "G",
+    "market_name": "Rebounds",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 4.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Quinten Post",
+    "player_team": "GSW",
+    "player_position": "C",
+    "market_name": "Rebounds",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 4.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Nikola Jovic",
+    "player_team": "MIA",
+    "player_position": "F",
+    "market_name": "Rebounds",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 4.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Taurean Prince",
+    "player_team": "MIL",
+    "player_position": "F",
+    "market_name": "Pts + Ast",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 6.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Brandin Podziemski",
+    "player_team": "GSW",
+    "player_position": "G",
+    "market_name": "Pts + Ast",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 13.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Alex Caruso",
+    "player_team": "OKC",
+    "player_position": "G",
+    "market_name": "Pts + Ast",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 10.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Marvin Bagley III",
+    "player_team": "WAS",
+    "player_position": "F",
+    "market_name": "Pts + Ast",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 6.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Aaron Wiggins",
+    "player_team": "OKC",
+    "player_position": "G",
+    "market_name": "Pts + Ast",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 18.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Victor Wembanyama",
+    "player_team": "SAS",
+    "player_position": "C",
+    "market_name": "Pts + Reb",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 41.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Stephon Castle",
+    "player_team": "SAS",
+    "player_position": "G",
+    "market_name": "Pts + Reb",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 22.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Franz Wagner",
+    "player_team": "ORL",
+    "player_position": "F",
+    "market_name": "Reb + Ast ",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 8.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Desmond Bane",
+    "player_team": "ORL",
+    "player_position": "G",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 28.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Buddy Hield",
+    "player_team": "GSW",
+    "player_position": "G",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 9.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "CJ McCollum",
+    "player_team": "WAS",
+    "player_position": "G",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 23.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Devin Vassell",
+    "player_team": "SAS",
+    "player_position": "G",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 23.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Tyus Jones",
+    "player_team": "ORL",
+    "player_position": "G",
+    "market_name": "Assists",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 3.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "LaMelo Ball",
+    "player_team": "CHA",
+    "player_position": "G",
+    "market_name": "Assists",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 7.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Tyus Jones",
+    "player_team": "ORL",
+    "player_position": "G",
+    "market_name": "Points",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 5.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Cam Whitmore",
+    "player_team": "WAS",
+    "player_position": "F",
+    "market_name": "Points",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 9.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "LaMelo Ball",
+    "player_team": "CHA",
+    "player_position": "G",
+    "market_name": "Rebounds",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 5.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Collin Sexton",
+    "player_team": "CHA",
+    "player_position": "G",
+    "market_name": "Pts + Ast",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 21.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Bilal Coulibaly",
+    "player_team": "WAS",
+    "player_position": "F",
+    "market_name": "Pts + Ast",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 11.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Jaime Jaquez Jr.",
+    "player_team": "MIA",
+    "player_position": "F",
+    "market_name": "Pts + Ast",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 19.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Quinten Post",
+    "player_team": "GSW",
+    "player_position": "C",
+    "market_name": "Pts + Reb",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 10.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Devin Vassell",
+    "player_team": "SAS",
+    "player_position": "G",
+    "market_name": "Pts + Reb",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 20.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Julian Champagnie",
+    "player_team": "SAS",
+    "player_position": "F",
+    "market_name": "Pts + Reb",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 13.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Moussa Diabate",
+    "player_team": "CHA",
+    "player_position": "F",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 14.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Luguentz Dort",
+    "player_team": "OKC",
+    "player_position": "G",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 16.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Victor Wembanyama",
+    "player_team": "SAS",
+    "player_position": "C",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 44.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Kel'el Ware",
+    "player_team": "MIA",
+    "player_position": "C",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 21.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Desmond Bane",
+    "player_team": "ORL",
+    "player_position": "G",
+    "market_name": "Assists",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 3.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Franz Wagner",
+    "player_team": "ORL",
+    "player_position": "F",
+    "market_name": "Points",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 21.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Sion James",
+    "player_team": "CHA",
+    "player_position": "G",
+    "market_name": "Points",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 6.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Julian Champagnie",
+    "player_team": "SAS",
+    "player_position": "F",
+    "market_name": "Points",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 9.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Al Horford",
+    "player_team": "GSW",
+    "player_position": "C",
+    "market_name": "Rebounds",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 4.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Ajay Mitchell",
+    "player_team": "OKC",
+    "player_position": "G",
+    "market_name": "Rebounds",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 3.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Keldon Johnson",
+    "player_team": "SAS",
+    "player_position": "F",
+    "market_name": "Rebounds",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 5.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Stephen Curry",
+    "player_team": "GSW",
+    "player_position": "G",
+    "market_name": "Pts + Ast",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 31.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Buddy Hield",
+    "player_team": "GSW",
+    "player_position": "G",
+    "market_name": "Pts + Ast",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 7.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Quinten Post",
+    "player_team": "GSW",
+    "player_position": "C",
+    "market_name": "Pts + Ast",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 7.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Wendell Carter Jr.",
+    "player_team": "ORL",
+    "player_position": "C",
+    "market_name": "Pts + Reb",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 20.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Cole Anthony",
+    "player_team": "MIL",
+    "player_position": "G",
+    "market_name": "Pts + Reb",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 13.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Jonathan Kuminga",
+    "player_team": "GSW",
+    "player_position": "F",
+    "market_name": "Reb + Ast ",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 9.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Quinten Post",
+    "player_team": "GSW",
+    "player_position": "C",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 12
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Cason Wallace",
+    "player_team": "OKC",
+    "player_position": "G",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 16.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Moussa Diabate",
+    "player_team": "CHA",
+    "player_position": "F",
+    "market_name": "Points",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 6.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Ryan Kalkbrenner",
+    "player_team": "CHA",
+    "player_position": "C",
+    "market_name": "Points",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 8.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Draymond Green",
+    "player_team": "GSW",
+    "player_position": "F",
+    "market_name": "Points",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 8.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Moses Moody",
+    "player_team": "GSW",
+    "player_position": "G",
+    "market_name": "Points",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 8.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Corey Kispert",
+    "player_team": "WAS",
+    "player_position": "F",
+    "market_name": "Points",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 7.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Myles Turner",
+    "player_team": "MIL",
+    "player_position": "C",
+    "market_name": "Rebounds",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 5.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Shai Gilgeous-Alexander",
+    "player_team": "OKC",
+    "player_position": "G",
+    "market_name": "Rebounds",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 5.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Victor Wembanyama",
+    "player_team": "SAS",
+    "player_position": "C",
+    "market_name": "Rebounds",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 13.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Dylan Harper",
+    "player_team": "SAS",
+    "player_position": "G",
+    "market_name": "Rebounds",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 4.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "CJ McCollum",
+    "player_team": "WAS",
+    "player_position": "G",
+    "market_name": "3Pts Made",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 1.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Andrew Wiggins",
+    "player_team": "MIA",
+    "player_position": "F",
+    "market_name": "Pts + Ast",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 20.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Kel'el Ware",
+    "player_team": "MIA",
+    "player_position": "C",
+    "market_name": "Pts + Ast",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 11.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Tyus Jones",
+    "player_team": "ORL",
+    "player_position": "G",
+    "market_name": "Pts + Reb",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 8
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Buddy Hield",
+    "player_team": "GSW",
+    "player_position": "G",
+    "market_name": "Pts + Reb",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 8.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Dylan Harper",
+    "player_team": "SAS",
+    "player_position": "G",
+    "market_name": "Pts + Reb",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 18.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.526858",
+    "player_name": "Tyus Jones",
+    "player_team": "ORL",
+    "player_position": "G",
+    "market_name": "Reb + Ast ",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 4.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Khris Middleton",
+    "player_team": "WAS",
+    "player_position": "F",
+    "market_name": "Reb + Ast ",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 6.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Harrison Barnes",
+    "player_team": "SAS",
+    "player_position": "F",
+    "market_name": "Reb + Ast ",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 5.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Nikola Jovic",
+    "player_team": "MIA",
+    "player_position": "F",
+    "market_name": "Reb + Ast ",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 7.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Wendell Carter Jr.",
+    "player_team": "ORL",
+    "player_position": "C",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 22.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Tidjane Salaun",
+    "player_team": "CHA",
+    "player_position": "F",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 9.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Khris Middleton",
+    "player_team": "WAS",
+    "player_position": "F",
+    "market_name": "Assists",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 2.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Harrison Barnes",
+    "player_team": "SAS",
+    "player_position": "F",
+    "market_name": "Assists",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 1.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Buddy Hield",
+    "player_team": "GSW",
+    "player_position": "G",
+    "market_name": "Points",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 7.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Khris Middleton",
+    "player_team": "WAS",
+    "player_position": "F",
+    "market_name": "Points",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 12.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Stephon Castle",
+    "player_team": "SAS",
+    "player_position": "G",
+    "market_name": "Points",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 17.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Kel'el Ware",
+    "player_team": "MIA",
+    "player_position": "C",
+    "market_name": "Points",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 10.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Franz Wagner",
+    "player_team": "ORL",
+    "player_position": "F",
+    "market_name": "Rebounds",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 4.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Anthony Black",
+    "player_team": "ORL",
+    "player_position": "G",
+    "market_name": "Rebounds",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 3.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Jimmy Butler III",
+    "player_team": "GSW",
+    "player_position": "F",
+    "market_name": "Rebounds",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 5.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Desmond Bane",
+    "player_team": "ORL",
+    "player_position": "G",
+    "market_name": "Pts + Ast",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 23.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "CJ McCollum",
+    "player_team": "WAS",
+    "player_position": "G",
+    "market_name": "Pts + Ast",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 19.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Shai Gilgeous-Alexander",
+    "player_team": "OKC",
+    "player_position": "G",
+    "market_name": "Pts + Ast",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 40.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Goga Bitadze",
+    "player_team": "ORL",
+    "player_position": "C",
+    "market_name": "Pts + Reb",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 10.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Ryan Kalkbrenner",
+    "player_team": "CHA",
+    "player_position": "C",
+    "market_name": "Pts + Reb",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 15.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Stephen Curry",
+    "player_team": "GSW",
+    "player_position": "G",
+    "market_name": "Pts + Reb",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 30.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "CJ McCollum",
+    "player_team": "WAS",
+    "player_position": "G",
+    "market_name": "Pts + Reb",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 19.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Luguentz Dort",
+    "player_team": "OKC",
+    "player_position": "G",
+    "market_name": "Pts + Reb",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 15.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Tidjane Salaun",
+    "player_team": "CHA",
+    "player_position": "F",
+    "market_name": "Reb + Ast ",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Jimmy Butler III",
+    "player_team": "GSW",
+    "player_position": "F",
+    "market_name": "Reb + Ast ",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 10.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Bam Adebayo",
+    "player_team": "MIA",
+    "player_position": "C",
+    "market_name": "Reb + Ast ",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 13.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Tyus Jones",
+    "player_team": "ORL",
+    "player_position": "G",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 11.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Harrison Barnes",
+    "player_team": "SAS",
+    "player_position": "F",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 14.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Brandin Podziemski",
+    "player_team": "GSW",
+    "player_position": "G",
+    "market_name": "Assists",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 2.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Isaiah Hartenstein",
+    "player_team": "OKC",
+    "player_position": "C",
+    "market_name": "Assists",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 2.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Brandin Podziemski",
+    "player_team": "GSW",
+    "player_position": "G",
+    "market_name": "Points",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 10.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Desmond Bane",
+    "player_team": "ORL",
+    "player_position": "G",
+    "market_name": "Rebounds",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 4.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Aaron Wiggins",
+    "player_team": "OKC",
+    "player_position": "G",
+    "market_name": "Rebounds",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 4.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Tre Johnson",
+    "player_team": "WAS",
+    "player_position": "G",
+    "market_name": "Rebounds",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 3.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Stephon Castle",
+    "player_team": "SAS",
+    "player_position": "G",
+    "market_name": "Rebounds",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 5.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Bam Adebayo",
+    "player_team": "MIA",
+    "player_position": "C",
+    "market_name": "Pts + Ast",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 24.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Devin Vassell",
+    "player_team": "SAS",
+    "player_position": "G",
+    "market_name": "Pts + Ast",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 19.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Collin Sexton",
+    "player_team": "CHA",
+    "player_position": "G",
+    "market_name": "Pts + Reb",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 19.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Gary Trent Jr.",
+    "player_team": "MIL",
+    "player_position": "G",
+    "market_name": "Pts + Reb",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 13.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Khris Middleton",
+    "player_team": "WAS",
+    "player_position": "F",
+    "market_name": "Pts + Reb",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 16.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Jaime Jaquez Jr.",
+    "player_team": "MIA",
+    "player_position": "F",
+    "market_name": "Pts + Reb",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 19.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Miles Bridges",
+    "player_team": "CHA",
+    "player_position": "F",
+    "market_name": "Reb + Ast ",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 10.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Al Horford",
+    "player_team": "GSW",
+    "player_position": "C",
+    "market_name": "Reb + Ast ",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 5.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Tre Johnson",
+    "player_team": "WAS",
+    "player_position": "G",
+    "market_name": "Reb + Ast ",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 5.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Simone Fontecchio",
+    "player_team": "MIA",
+    "player_position": "F",
+    "market_name": "Reb + Ast ",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 3.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Collin Sexton",
+    "player_team": "CHA",
+    "player_position": "G",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 23.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Franz Wagner",
+    "player_team": "ORL",
+    "player_position": "F",
+    "market_name": "Assists",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 3.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Jonathan Kuminga",
+    "player_team": "GSW",
+    "player_position": "F",
+    "market_name": "Assists",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 3.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Alex Sarr",
+    "player_team": "WAS",
+    "player_position": "C",
+    "market_name": "Assists",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 3.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Bam Adebayo",
+    "player_team": "MIA",
+    "player_position": "C",
+    "market_name": "Assists",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 3.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Jimmy Butler III",
+    "player_team": "GSW",
+    "player_position": "F",
+    "market_name": "Points",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 19.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Devin Vassell",
+    "player_team": "SAS",
+    "player_position": "G",
+    "market_name": "Points",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 16.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Davion Mitchell",
+    "player_team": "MIA",
+    "player_position": "G",
+    "market_name": "Points",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 10.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Draymond Green",
+    "player_team": "GSW",
+    "player_position": "F",
+    "market_name": "Rebounds",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 5.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Will Richard",
+    "player_team": "GSW",
+    "player_position": "G",
+    "market_name": "Rebounds",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 0.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Isaiah Hartenstein",
+    "player_team": "OKC",
+    "player_position": "C",
+    "market_name": "Rebounds",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 11.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Jaime Jaquez Jr.",
+    "player_team": "MIA",
+    "player_position": "F",
+    "market_name": "Steals",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 0.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Kon Knueppel",
+    "player_team": "CHA",
+    "player_position": "F",
+    "market_name": "3Pts Made",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 2.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Cam Whitmore",
+    "player_team": "WAS",
+    "player_position": "F",
+    "market_name": "3Pts Made",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 0.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Stephon Castle",
+    "player_team": "SAS",
+    "player_position": "G",
+    "market_name": "Pts + Ast",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 23.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Alex Sarr",
+    "player_team": "WAS",
+    "player_position": "C",
+    "market_name": "Reb + Ast ",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 10.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Davion Mitchell",
+    "player_team": "MIA",
+    "player_position": "G",
+    "market_name": "Reb + Ast ",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 9.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Dylan Harper",
+    "player_team": "SAS",
+    "player_position": "G",
+    "market_name": "Reb + Ast ",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 8.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Jaime Jaquez Jr.",
+    "player_team": "MIA",
+    "player_position": "F",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 23.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Dylan Harper",
+    "player_team": "SAS",
+    "player_position": "G",
+    "market_name": "Pts + Ast + Reb",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 22.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Buddy Hield",
+    "player_team": "GSW",
+    "player_position": "G",
+    "market_name": "Assists",
+    "event_name": "Golden State @ Milwaukee",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 0.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Jaylin Williams",
+    "player_team": "OKC",
+    "player_position": "C",
+    "market_name": "Assists",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 2
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Desmond Bane",
+    "player_team": "ORL",
+    "player_position": "G",
+    "market_name": "Points",
+    "event_name": "Orlando @ Charlotte",
+    "event_start_time": "2025-10-30 23:00:00",
+    "line": 19.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Cam Whitmore",
+    "player_team": "WAS",
+    "player_position": "F",
+    "market_name": "Rebounds",
+    "event_name": "Washington @ Oklahoma City",
+    "event_start_time": "2025-10-31 00:00:00",
+    "line": 2.5
+  },
+  {
+    "timestamp": "2025-10-30T19:19:04.527838",
+    "player_name": "Jaime Jaquez Jr.",
+    "player_team": "MIA",
+    "player_position": "F",
+    "market_name": "Rebounds",
+    "event_name": "Miami @ San Antonio",
+    "event_start_time": "2025-10-31 00:30:00",
+    "line": 5.5
+  }
+]
