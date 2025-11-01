@@ -62,3 +62,11 @@ simple_auth_manager_passwords.json.generated
 *.log
 logs/
 
+
+__pycache__/
+credentials/*
+
+.DS_Store
+
+
+airflow/simple_auth_manager_passwords.json.generated
