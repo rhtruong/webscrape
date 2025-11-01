@@ -4,6 +4,11 @@ import pandas as pd
 import os
 from dotenv import load_dotenv
 
+from fetch_bettingpros import get_bettingpros_df
+from fetch_prizepicks import get_prizepicks_df
+# from fetch_draftedge import get_draftedge_df
+
+
 load_dotenv()
 db_username = os.getenv("DB_USERNAME")
 db_password = os.getenv("DB_PASSWORD")
@@ -41,15 +46,15 @@ def __main__(table_name):
     if not check_if_table_exists(table_name):
         raise Exception(f"Table {table_name} does not exist.")
 
-    # Assuming these functions return DataFrames
-    df1, df2 = get_bettingpros_df(), get_prizepicks_df()
+    # Fetch latest DataFrames inside migration
+    dfs = [get_bettingpros_df(), get_prizepicks_df()]  # add draftedge here if needed
+    for df in dfs:
+        if not check_df_columns(df):
+            raise Exception(f"df columns do not match WITH {table_name} attributes.")
+        append_to_postgres(df, table_name)
 
-    if not check_df_columns(df1) or not check_df_columns(df2):
-        raise Exception(f"df columns do not match WITH {table_name} attributes.")
+    print(f"Successfully appended dataframes to {table_name} in postgres.")
 
-    append_to_postgres(df1, table_name)
-    append_to_postgres(df2, table_name)
-    print("Successfully appended to postgres.")
 
 if __name__ == "__main__":
     __main__('player_lines')
