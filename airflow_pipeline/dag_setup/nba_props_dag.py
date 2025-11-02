@@ -1,15 +1,22 @@
-from airflow import DAG
+"""
+To run the dag in ../dag_setup
+    - set AIRFLOW_HOME=~/CursorProjects/webscrape/airflow
+    - airflow scheduler
+
+For airflow UI
+airflow apiserver --port 8080
+"""
+
+"""
+from airflow.models.dag import DAG
 from airflow.operators.python import PythonOperator
+from airflow.timetables.cron_timetable import CronTimetable
 from datetime import datetime, timedelta
 import sys
 import os
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '.')))  # For migrate_to_postgres
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../api_scripts')))  # For fetch functions
+# ... your sys.path stuff
 
-from migrate_to_postgres import __main__ as migrate_to_postgres_main
-
-# Default arguments for the DAG
 default_args = {
     'owner': 'LineDancers',
     'depends_on_past': False,
@@ -20,12 +27,11 @@ default_args = {
     'retry_delay': timedelta(minutes=5),
 }
 
-# Create the DAG
 dag = DAG(
     'nba_sportsbook_pipeline',
     default_args=default_args,
     description='Daily NBA sportsbook data scraping and collection pipeline',
-    schedule_interval='0 22 * * *',  # Run daily at 10 AM
+    timetable=CronTimetable("0 22 * * *"),  # now works
     catchup=False,
     tags=['nba', 'betting', 'data-pipeline'],
 )
@@ -41,3 +47,5 @@ task_migrate_to_postgres = PythonOperator(
 )
 
 # Only one task now, no fetch tasks needed
+
+"""

@@ -1,6 +1,5 @@
 # Airflow - NEVER commit these files!
-airflow/
-airflow.db
+airflow/*
 *.db
 
 # Airflow secrets and sensitive config
