@@ -13,10 +13,10 @@ load_dotenv()
 db_username = os.getenv("DB_USERNAME")
 db_password = os.getenv("DB_PASSWORD")
 
-db_eng = create_engine('postgresql+psycopg2://' + db_username + ':' + db_password + '@localhost:5432/nba_deeplearning',
-                       connect_args={'options': '-csearch_path={}'.format('company_no_caps')},
-                       isolation_level = 'SERIALIZABLE')
-
+db_eng = create_engine(
+    f'postgresql+psycopg2://{db_username}:{db_password}@localhost:5432/nba_deeplearning',
+    isolation_level='SERIALIZABLE'
+)
 print("Successfully created db engine.")
 
 
@@ -26,7 +26,6 @@ def append_to_postgres(df, table_name):
         db_eng,
         if_exists='append',
         index=False,
-        method='multi',        # faster batch inserts
         chunksize=1000         # for large DataFrames
     )    
 
@@ -49,6 +48,9 @@ def __main__(table_name):
     # Fetch latest DataFrames inside migration
     dfs = [get_bettingpros_df(), get_prizepicks_df()]  # add draftedge here if needed
     for df in dfs:
+        if df.empty:
+            print(f"Skipping empty DataFrame...")
+            continue
         if not check_df_columns(df):
             raise Exception(f"df columns do not match WITH {table_name} attributes.")
         append_to_postgres(df, table_name)

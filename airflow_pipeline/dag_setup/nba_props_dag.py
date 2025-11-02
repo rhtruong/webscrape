@@ -4,13 +4,10 @@ from datetime import datetime, timedelta
 import sys
 import os
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../dag_setup')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '.')))  # For migrate_to_postgres
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../api_scripts')))  # For fetch functions
 
 from migrate_to_postgres import __main__ as migrate_to_postgres_main
-from fetch_bettingpros import main as fetch_bettingpros_df
-from fetch_prizepicks import main as fetch_prizepicks_df
-#from fetch_draftedge import main as fetch_draftedge_df
-
 
 # Default arguments for the DAG
 default_args = {
