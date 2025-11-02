@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 from fetch_bettingpros import get_bettingpros_df
 from fetch_prizepicks import get_prizepicks_df
-# from fetch_draftedge import get_draftedge_df
+from fetch_draftedge import get_draftedge_df
 
 
 load_dotenv()
