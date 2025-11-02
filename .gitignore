@@ -1,5 +1,7 @@
-# Airflow - NEVER commit these files!
+# Airflow - keep dags and logs, ignore configs and db
 airflow/*
+!airflow/dags/
+!airflow/logs/
 *.db
 
 # Airflow secrets and sensitive config
