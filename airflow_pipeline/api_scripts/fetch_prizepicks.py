@@ -97,10 +97,10 @@ def filter_projections(data):
                 'team': team,
                 'sportsbook': 'PrizePicks',
                 'line_score': attrs.get('line_score'),
-                'line_type': attrs.get('stat_type'),
                 'game_start': attrs.get('start_time'),
                 'time_scraped': time_scraped,
-                'opponent_team': attrs.get('description')
+                'opponent_team': attrs.get('description'),
+                'line_type': attrs.get('stat_type')
             })
         
         except Exception as e:
@@ -116,8 +116,8 @@ def get_prizepicks_df():
         pd.DataFrame: Columns ['player_name', 'team', 'sportsbook', 'line_score', 
                       'line_type', 'game_start', 'time_scraped', 'opponent_team']
     """
-    columns = ['player_name', 'team', 'sportsbook', 'line_score', 'line_type', 
-               'game_start', 'time_scraped', 'opponent_team']
+    columns = ['player_name', 'team', 'sportsbook', 'line_score', 
+               'game_start', 'time_scraped', 'opponent_team', 'line_type']
     
     try:
         data = get_prizepicks_data()
@@ -140,15 +140,8 @@ def get_prizepicks_df():
 def main():
     """Main execution"""
     df = get_prizepicks_df()
-    df.to_csv("output.csv", index=False)
     if df.empty:
         sys.exit(1)
-    
-    print(f"\nTotal: {len(df)} projections")
-    print(f"Players: {df['player_name'].nunique()}")
-    print(f"Teams: {df['team'].nunique()}")
-    print(f"\nStat Types:\n{df['line_type'].value_counts()}")
-    print(f"\nSample:\n{df.head(10)}")
 
 if __name__ == "__main__":
     main()
