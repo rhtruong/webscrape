@@ -41,7 +41,7 @@ def check_if_table_exists(table_name):
         return result.scalar()
 
 def check_df_columns(df):
-    table_columns = ['player_name', 'team', 'sportsbook', 'line_score', 'game_start', 'time_scraped', 'opponent_team']
+    table_columns = ['player_name', 'team', 'sportsbook', 'line_score', 'game_start', 'time_scraped', 'opponent_team', 'line_type']
     df_columns = df.columns.tolist()
     return all(col in df_columns for col in table_columns) and len(df_columns) == len(table_columns)
 

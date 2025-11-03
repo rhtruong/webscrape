@@ -9,7 +9,7 @@ airflow apiserver --port 8080
 """
 To run the dag in ../dag_setup
     - set AIRFLOW_HOME=~/CursorProjects/webscrape/airflow
-    - airflow scheduler
+    - airflow standalone
 
 For airflow UI
 airflow apiserver --port 8080
