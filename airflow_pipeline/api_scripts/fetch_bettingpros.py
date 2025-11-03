@@ -45,12 +45,18 @@ def parse_props(data):
     markets_dict = {market['id']: market for market in data.get('markets', [])}
     books_dict = {book['id']: book for book in data.get('books', [])}
     
+    
     for prop in data['props']:
         try:
             prop_type = prop.get('type', '')
             if any(keyword in prop_type.lower() for keyword in ['combo', 'parlay', 'sgp', 'same game']):
                 continue
             
+            market_id = prop.get('market_id')
+            market = markets_dict.get(market_id)
+            line_type = market.get('meta', {}).get('short_label')
+            line_type = line_type.replace(' + ', '+')
+
             participants = prop.get('participants', [])
             if isinstance(participants, list) and len(participants) > 1:
                 continue
@@ -138,6 +144,7 @@ def parse_props(data):
                         'team': team,
                         'sportsbook': sportsbook,
                         'line_score': float(book_line) if book_line is not None else None,
+                        'line_type': line_type,
                         'game_start': game_start,
                         'time_scraped': time_scraped,
                         'opponent_team': opponent_team
@@ -151,6 +158,7 @@ def parse_props(data):
                     'team': team,
                     'sportsbook': 'BettingPros',
                     'line_score': float(line_score) if line_score is not None else None,
+                    'line_type': line_type,
                     'game_start': game_start,
                     'time_scraped': time_scraped,
                     'opponent_team': opponent_team
@@ -178,18 +186,18 @@ def get_bettingpros_df():
         if not data:
             print("Warning: No data retrieved from BettingPros")
             return pd.DataFrame(columns=['player_name', 'team', 'sportsbook', 
-                                         'line_score', 'game_start', 'time_scraped', 'opponent_team'])
+                                         'line_score', 'line_type', 'game_start', 'time_scraped', 'opponent_team'])
         
         parsed_props = parse_props(data)
         
         if not parsed_props:
             print("Warning: No props found after filtering")
             return pd.DataFrame(columns=['player_name', 'team', 'sportsbook', 
-                                         'line_score', 'game_start', 'time_scraped', 'opponent_team'])
+                                         'line_score', 'line_type', 'game_start', 'time_scraped', 'opponent_team'])
         
         # Convert to DataFrame with explicit column order
         df = pd.DataFrame(parsed_props)
-        df = df[['player_name', 'team', 'sportsbook', 'line_score', 'game_start', 'time_scraped', 'opponent_team']]
+        df = df[['player_name', 'team', 'sportsbook', 'line_score', 'line_type', 'game_start', 'time_scraped', 'opponent_team']]
         
         print(f"BettingPros: Successfully retrieved {len(df)} records")
         return df
@@ -197,7 +205,7 @@ def get_bettingpros_df():
     except Exception as e:
         print(f"Error fetching BettingPros data: {e}", file=sys.stderr)
         return pd.DataFrame(columns=['player_name', 'team', 'sportsbook', 
-                                     'line_score', 'game_start', 'time_scraped', 'opponent_team'])
+                                     'line_score', 'line_type', 'game_start', 'time_scraped', 'opponent_team'])
 
 
 
