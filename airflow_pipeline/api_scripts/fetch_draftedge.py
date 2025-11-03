@@ -42,19 +42,19 @@ def parse_draftedge_props(data):
             if not player_name or not team:
                 continue
             
-            # Convert game time to ISO format if possible
+        # Convert game time to ISO format if possible
             game_start = None
             if game_time:
                 try:
-                    # GameTime format: "11-01 17:00 EDT"
-                    # Convert to ISO format (approximate - uses current year)
+                    # Normalize spaces and remove any timezone abbreviation
+                    clean_time = game_time.replace("EDT", "").replace("EST", "").strip()
+                    # Expect format like "11-03 19:00"
                     current_year = datetime.now().year
-                    game_datetime_str = f"{current_year}-{game_time}"
-                    # Parse and convert to ISO
-                    parsed_dt = datetime.strptime(game_datetime_str.split(' EDT')[0], "%Y-%m-%d %H:%M")
+                    parsed_dt = datetime.strptime(f"{current_year}-{clean_time}", "%Y-%m-%d %H:%M")
                     game_start = parsed_dt.isoformat()
-                except Exception as e:
-                    game_start = game_time
+                except Exception:
+                    # fallback: keep original string so we can inspect later
+                    game_start = None
             
             # Get prop data
             prop_data = player_data.get('PropData', {})
