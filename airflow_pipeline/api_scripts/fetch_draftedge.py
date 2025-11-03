@@ -105,7 +105,8 @@ def parse_draftedge_props(data):
                     'line_score': float(line_score),
                     'game_start': game_start,
                     'time_scraped': time_scraped,
-                    'opponent_team': opponent_team
+                    'opponent_team': opponent_team,
+                    'line_type': 'points'
                 }
                 
                 parsed_props.append(parsed_prop)
@@ -130,18 +131,18 @@ def get_draftedge_df():
         if not data:
             print("Warning: No data retrieved from DraftEdge")
             return pd.DataFrame(columns=['player_name', 'team', 'sportsbook', 
-                                         'line_score', 'game_start', 'time_scraped', 'opponent_team'])
+                                         'line_score', 'game_start', 'time_scraped', 'opponent_team', 'line_type'])
         
         parsed_props = parse_draftedge_props(data)
         
         if not parsed_props:
             print("Warning: No props found after filtering")
             return pd.DataFrame(columns=['player_name', 'team', 'sportsbook', 
-                                         'line_score', 'game_start', 'time_scraped', 'opponent_team'])
+                                         'line_score', 'game_start', 'time_scraped', 'opponent_team', 'line_type'])
         
         # Convert to DataFrame with explicit column order
         df = pd.DataFrame(parsed_props)
-        df = df[['player_name', 'team', 'sportsbook', 'line_score', 'game_start', 'time_scraped', 'opponent_team']]
+        df = df[['player_name', 'team', 'sportsbook', 'line_score', 'game_start', 'time_scraped', 'opponent_team', 'line_type']]
         
         print(f"DraftEdge: Successfully retrieved {len(df)} records from {df['sportsbook'].nunique()} sportsbooks")
         return df
@@ -149,7 +150,7 @@ def get_draftedge_df():
     except Exception as e:
         print(f"Error fetching DraftEdge data: {e}", file=sys.stderr)
         return pd.DataFrame(columns=['player_name', 'team', 'sportsbook', 
-                                     'line_score', 'game_start', 'time_scraped', 'opponent_team'])
+                                     'line_score', 'game_start', 'time_scraped', 'opponent_team', 'line_type'])
 
 def main():
     """
