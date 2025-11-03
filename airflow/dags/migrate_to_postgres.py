@@ -10,7 +10,7 @@ if API_SCRIPTS_PATH not in sys.path:
     sys.path.insert(0, API_SCRIPTS_PATH)
 
 from fetch_bettingpros import get_bettingpros_df
-from fetch_prize_picks import get_prizepicks_df
+from fetch_prizepicks import get_prizepicks_df
 from fetch_draftedge import get_draftedge_df
 
 load_dotenv()
