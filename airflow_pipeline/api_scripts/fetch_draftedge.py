@@ -19,7 +19,7 @@ def fetch_draftedge_data():
 def parse_draftedge_props(data):
     """
     Parse DraftEdge API response and extract standardized prop data.
-    Focuses on points props from various sportsbooks.
+    Extracts all prop types (points, rebounds, assists, combos, etc.).
     
     Returns:
         list: List of dictionaries with standardized schema
@@ -42,7 +42,7 @@ def parse_draftedge_props(data):
             if not player_name or not team:
                 continue
             
-        # Convert game time to ISO format if possible
+            # Convert game time to ISO format if possible
             game_start = None
             if game_time:
                 try:
@@ -54,11 +54,13 @@ def parse_draftedge_props(data):
                     game_start = parsed_dt.isoformat()
                 except Exception:
                     # fallback: keep original string so we can inspect later
-                    game_start = None
+                    game_start = game_time
             
             # Get prop data
             prop_data = player_data.get('PropData', {})
-            points_props = prop_data.get('PropPts', [])
+            
+            if not prop_data:
+                continue
             
             # Define sportsbooks that typically provide main lines only
             # These books usually have 1-2 lines max and don't clutter with alternates
@@ -67,49 +69,67 @@ def parse_draftedge_props(data):
                 'williamhill_us', 'betonlineag'
             }
             
-            # Track unique lines per bookmaker (to handle any duplicates)
-            bookmaker_lines = {}
+            # Map DraftEdge prop types to standardized line_type names
+            PROP_TYPE_MAPPING = {
+                'PropPts': 'points',
+                'PropReb': 'rebounds',
+                'PropAst': 'assists',
+                'PropFG3PM': '3-pointers',
+                'PropPtsReb': 'points+rebounds',
+                'PropPtsAst': 'points+assists',
+                'PropPtsRebAst': 'points+rebounds+assists'
+            }
             
-            # Process each sportsbook's points line
-            for prop in points_props:
-                bet_type = prop.get('BetType')
+            # Process each prop type (points, rebounds, assists, etc.)
+            for prop_type_key, line_type in PROP_TYPE_MAPPING.items():
+                props_list = prop_data.get(prop_type_key, [])
                 
-                # Only process "Over" lines (the line score is the same for Over/Under)
-                if bet_type != 'Over':
+                if not props_list:
                     continue
                 
-                line_score = prop.get('Line')
-                bookmaker = prop.get('Bookmaker')
+                # Track unique lines per bookmaker for this stat type
+                bookmaker_lines = {}
                 
-                # Skip if missing essential prop info
-                if line_score is None or not bookmaker:
-                    continue
+                # Process each sportsbook's line for this stat
+                for prop in props_list:
+                    bet_type = prop.get('BetType')
+                    
+                    # Only process "Over" lines (the line score is the same for Over/Under)
+                    if bet_type != 'Over':
+                        continue
+                    
+                    line_score = prop.get('Line')
+                    bookmaker = prop.get('Bookmaker')
+                    
+                    # Skip if missing essential prop info
+                    if line_score is None or not bookmaker:
+                        continue
+                    
+                    # FILTER: Only include main line sportsbooks
+                    if bookmaker.lower() not in MAIN_LINE_BOOKS:
+                        continue
+                    
+                    # Track lines by bookmaker (use dict to avoid duplicates)
+                    if bookmaker not in bookmaker_lines:
+                        bookmaker_lines[bookmaker] = line_score
                 
-                # FILTER: Only include main line sportsbooks
-                if bookmaker.lower() not in MAIN_LINE_BOOKS:
-                    continue
-                
-                # Track lines by bookmaker (use dict to avoid duplicates)
-                if bookmaker not in bookmaker_lines:
-                    bookmaker_lines[bookmaker] = line_score
-            
-            # Create one row per bookmaker with their line
-            for bookmaker, line_score in bookmaker_lines.items():
-                # Format bookmaker name (capitalize first letter)
-                sportsbook = bookmaker.replace('_', ' ').title()
-                
-                parsed_prop = {
-                    'player_name': player_name,
-                    'team': team,
-                    'sportsbook': sportsbook,
-                    'line_score': float(line_score),
-                    'game_start': game_start,
-                    'time_scraped': time_scraped,
-                    'opponent_team': opponent_team,
-                    'line_type': 'points'
-                }
-                
-                parsed_props.append(parsed_prop)
+                # Create one row per bookmaker with their line for this stat type
+                for bookmaker, line_score in bookmaker_lines.items():
+                    # Format bookmaker name (capitalize first letter)
+                    sportsbook = bookmaker.replace('_', ' ').title()
+                    
+                    parsed_prop = {
+                        'player_name': player_name,
+                        'team': team,
+                        'sportsbook': sportsbook,
+                        'line_score': float(line_score),
+                        'game_start': game_start,
+                        'time_scraped': time_scraped,
+                        'opponent_team': opponent_team,
+                        'line_type': line_type
+                    }
+                    
+                    parsed_props.append(parsed_prop)
         
         except Exception as e:
             print(f"Error processing player {player_id}: {e}", file=sys.stderr)
@@ -123,7 +143,7 @@ def get_draftedge_df():
     
     Returns:
         pd.DataFrame: DataFrame with columns ['player_name', 'team', 'sportsbook', 
-                      'line_score', 'game_start', 'time_scraped', 'opponent_team']
+                      'line_score', 'game_start', 'time_scraped', 'opponent_team', 'line_type']
     """
     try:
         data = fetch_draftedge_data()
@@ -166,7 +186,6 @@ def main():
     if df.empty:
         print("No props found in response")
         sys.exit(1)
-    
 
 if __name__ == "__main__":
     main()
