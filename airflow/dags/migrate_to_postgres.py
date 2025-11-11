@@ -4,21 +4,24 @@ import os
 import sys
 from dotenv import load_dotenv
 
-# Ensure shared api_scripts package is importable when executed by Airflow
-API_SCRIPTS_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../airflow_pipeline/api_scripts'))
-if API_SCRIPTS_PATH not in sys.path:
-    sys.path.insert(0, API_SCRIPTS_PATH)
+# Ensure project root is importable when executed by Airflow or standalone
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
 
-from fetch_bettingpros import get_bettingpros_df
-from fetch_prizepicks import get_prizepicks_df
-from fetch_draftedge import get_draftedge_df
+from airflow_pipeline.api_scripts.fetch_bettingpros import get_bettingpros_df
+from airflow_pipeline.api_scripts.fetch_prizepicks import get_prizepicks_df
+from airflow_pipeline.api_scripts.fetch_draftedge import get_draftedge_df
 
 load_dotenv()
 db_username = os.getenv("DB_USERNAME")
 db_password = os.getenv("DB_PASSWORD")
+db_host = os.getenv("DB_HOST", "localhost")
+db_port = os.getenv("DB_PORT", "5432")
+db_name = os.getenv("DB_NAME", "nba_deeplearning")
 
 connection_string = (
-    f'postgresql+psycopg2://{db_username}:{db_password}@localhost:5432/nba_deeplearning'
+    f'postgresql+psycopg2://{db_username}:{db_password}@{db_host}:{db_port}/{db_name}'
 )
 
 db_eng = create_engine(connection_string)

@@ -5,9 +5,9 @@ services:
     image: postgres:15
     restart: always
     environment:
-      POSTGRES_USER: airflow
-      POSTGRES_PASSWORD: airflow
-      POSTGRES_DB: airflow
+      POSTGRES_USER: line_dancer
+      POSTGRES_PASSWORD: sportsbook_data
+      POSTGRES_DB: nba_deeplearning
     volumes:
       - postgres_data:/var/lib/postgresql/data
     ports:
@@ -19,10 +19,18 @@ services:
       - postgres
     restart: always
     environment:
-      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://line_dancer:sportsbook_data@postgres/nba_deeplearning
+      - DB_USERNAME=line_dancer
+      - DB_PASSWORD=sportsbook_data
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_NAME=nba_deeplearning
       - AIRFLOW__CORE__EXECUTOR=LocalExecutor
       - AIRFLOW__CORE__LOAD_EXAMPLES=False
       - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=False
+      - AIRFLOW__WEBSERVER__AUTHENTICATE=True
+      - AIRFLOW__SIMPLE_AUTH_MANAGER__ADMIN_USERNAME=admin
+      - AIRFLOW__SIMPLE_AUTH_MANAGER__ADMIN_PASSWORD=PZrYMfcmHMNKypbp
     ports:
       - "8080:8080"
     volumes:

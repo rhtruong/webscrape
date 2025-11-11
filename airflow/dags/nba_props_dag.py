@@ -19,6 +19,11 @@ from airflow.models.dag import DAG
 from airflow.providers.standard.operators.python import PythonOperator
 from datetime import datetime, timedelta
 import sys, os
+
+API_SCRIPTS_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../airflow_pipeline/api_scripts'))
+if API_SCRIPTS_PATH not in sys.path:
+    sys.path.insert(0, API_SCRIPTS_PATH)
+
 from migrate_to_postgres import __main__ as migrate_to_postgres_main
 
 default_args = {
