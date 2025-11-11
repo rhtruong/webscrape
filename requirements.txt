@@ -3,7 +3,7 @@ requests==2.31.0
 pandas==2.1.4
 
 # Airflow
-apache-airflow==2.8.0
+# apache-airflow==2.8.0
 
 # PostgreSQL
 psycopg2-binary==2.9.9
