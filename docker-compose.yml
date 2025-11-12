@@ -19,13 +19,12 @@ services:
       - postgres
     restart: always
     environment:
-      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://line_dancer:sportsbook_data@postgres/nba_deeplearning
       - DB_USERNAME=line_dancer
       - DB_PASSWORD=sportsbook_data
       - DB_HOST=postgres
       - DB_PORT=5432
       - DB_NAME=nba_deeplearning
-      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__CORE__EXECUTOR=SequentialExecutor
       - AIRFLOW__CORE__LOAD_EXAMPLES=False
       - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=False
       - AIRFLOW__WEBSERVER__AUTHENTICATE=True
